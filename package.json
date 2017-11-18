@@ -1,0 +1,21 @@
+{
+  "name": "rxjs-training",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "webpack": "webpack --config webpack.config.js --watch"
+  },
+  "dependencies": {
+    "@types/socket.io": "^1.4.31",
+    "@types/socket.io-client": "^1.4.32",
+    "express": "4.15.2",
+    "rxjs": "5.5.2",
+    "socket.io": "2.0.4",
+    "yargs": "10.0.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.4",
+    "webpack": "^2.6.1"
+  }
+}
