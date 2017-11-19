@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Currency Exchange Rates</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/png" href="/src/assets/connectivity.png" />
+    <link rel="stylesheet" href="/src/assets/bootstrap.css" />
+    <link rel="stylesheet" href="/src/assets/app.css" />
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+
+    <my-increase></my-increase>
+    <my-item id="item"></my-item>
+    <my-decrease></my-decrease>
+    <div id="rate"></div>
+
+<!--
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../">Currency exchange</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="currency-template">
+            <h1>Currency Exchange Rates</h1>
+
+            <p class="lead">Exchange your local currency to another one.</p>
+            <ul style="text-align: left;">
+                <li>foreign currency rates change very often (once per few seconds)</li>
+                <li>your cash in <code>PLN</code> can be changed as well</li>
+                <li>display exchange prices always up to date</li>
+            </ul>
+
+            <div class="form-group">
+                <label for="cash-input">Cash to transfer</label>
+                <div class="input-group">
+                    <div class="input-group-addon">PLN</div>
+                    <input type="text" class="form-control input-lg" id="cash-input" placeholder="cash">
+                </div>
+            </div>
+
+            <table class="table big text-left">
+                <thead>
+                    <tr>
+                        <th>Currency</th>
+                        <th>Rate</th>
+                        <th>Exchange</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>USD</td>
+                        <td>
+                            <span class="amount text-primary" id="usd-rate"></span>
+                            <span class="amount text-primary" id="usd-trend"></span>
+                        </td>
+                        <td>
+                            <span class="amount text-warning" id="usd-exchange"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>EUR</td>
+                        <td>
+                            <span class="amount text-primary" id="eur-rate"></span>
+                            <span class="amount text-primary" id="eur-trend"></span>
+                        </td>
+                        <td>
+                            <span class="amount text-warning" id="eur-exchange"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>GBP</td>
+                        <td>
+                            <span class="amount text-primary" id="gbp-rate"></span>
+                            <span class="amount text-primary" id="gbp-trend"></span>
+                        </td>
+                        <td>
+                            <span class="amount text-warning" id="gbp-exchange"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CHF</td>
+                        <td>
+                            <span class="amount text-primary" id="chf-rate"></span>
+                            <span class="amount text-primary" id="chf-trend"></span>
+                        </td>
+                        <td>
+                            <span class="amount text-warning" id="chf-exchange"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            <p>&copy; 2017 Tomasz Ducin IT Services,
+                <i>Asynchronous JavaScript Training</i>
+            </p>
+        </footer>
+
+    </div>
+-->
+    <script src="dist/bundle.js"></script>
+</body>
+
+</html>
